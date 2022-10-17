@@ -1,6 +1,7 @@
 import aiohttp
 import asyncio
 import uvicorn
+import pickle
 from pathlib import Path
 from fastai import *
 from fastai.vision import *

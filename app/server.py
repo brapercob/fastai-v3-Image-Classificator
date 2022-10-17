@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1R98B1ma9x-VvFp-PretN6jkCb1TSb_X9/view?usp=sharing'
+export_file_url = 'https://drive.google.com/file/d/14PDLARPSEjO3Zjwr0uOZB_j6O1n-kdpE/view?usp=sharing'
 export_file_name = 'model.pth'
 
 classes = ['Positivo', 'Negativo']

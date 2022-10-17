@@ -4,7 +4,7 @@ import uvicorn
 import pickle
 from pathlib import Path
 from fastai import *
-from fastai.vision import *
+from fastai.vision.all import *
 from io import BytesIO
 from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware

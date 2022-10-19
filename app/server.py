@@ -11,7 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/w4khx34p1kqpk1t/model-resnet18.pkl?raw=1'
+export_file_url = 'https://www.dropbox.com/s/w4khx34p1kqpk1t/model-resnet18.pkl?dl=1'
 export_file_name = 'model-resnet18.pkl'
 
 classes = ['Positivo', 'Negativo']

@@ -11,7 +11,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN python app/server.py
+RUN python server.py
 
 EXPOSE 5000
 

@@ -14,16 +14,8 @@ from fastai.callback import mixup
 from fastai.imports import *
 from fastai.torch_core import *
 from fastai.learner import *
-from django.urls import path
-#Import matriz de confusión
-from sklearn.metrics import confusion_matrix
-#Herramienta de plot
-import seaborn as sns
-#Clasificación
-from sklearn.metrics import classification_report
-import cv2
-#Mover imágenes para selección
-import shutil
+from pathlib import Path
+
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
 export_file_url = 'https://www.dropbox.com/s/w4khx34p1kqpk1t/model-resnet18.pkl?dl=1'

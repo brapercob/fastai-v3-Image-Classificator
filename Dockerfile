@@ -7,11 +7,9 @@ COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
 
-WORKDIR /app
+COPY app app/
 
-COPY . .
-
-RUN python server.py
+RUN python app/server.py
 
 EXPOSE 5000
 

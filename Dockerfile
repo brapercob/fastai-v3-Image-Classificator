@@ -7,7 +7,9 @@ COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
 
-COPY app app/
+WORKDIR /app
+
+COPY . .
 
 RUN python app/server.py
 
